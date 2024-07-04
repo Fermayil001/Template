@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+
+}
+header {
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(../assets/img/bg-masthead.jpg); */
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+
+}
+
+header .hdr {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+header .hdr h1 {
+    font-size: 100px;
+    font-family: var(--bs-body-font-family);
+}
+
+header .hdr h3 {
+    font-size: 35px;
+}
+
+.hdr a {
+    margin-top: 50px;
+    text-decoration: none;
+    border: 2px solid #166077;
+    padding: 20px 30px;
+    color: white;
+    background-color: #196d87;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.hdr a:hover {
+    background-color: #17667f;
+    border: 2px solid #17667f;
+}
+
+.onesctn {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    text-align: center;
+    font-size: 20px;
+}
+
+.onesctn h2 {
+    margin-bottom: 10px;
+}
+
+.onesctn .one {
+    margin-bottom: 60px;
+}
+
+.onesctn .btn {
+    text-decoration: none;
+    background-color: #212529;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #424649;
+}
+
+
+
+/* ------------------------------------- */
+
+
+.twosctn {
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    padding-top: 150px;
+    background-color: rgb(29 127 159);
+
+}
+
+.twosctn .twop {
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: default;
+    color: rgb(236 184 7);
+}
+
+.twosctn .threep {
+    font-weight: bolder;
+    font-size: 50px;
+    cursor: default;
+    color: white;
+    margin-bottom: 40px;
+
+}
+
+.box {
+    width: 80%;
+    color: white;
+    margin: auto;
+    display: flex;
+}
+
+.box1 {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.box1 span {
+    width: 150px;
+    height: 150px;
+    background-color: #fcfcfc;
+    border-radius: 50%;
+}
+
+.box1 i {
+    line-height: 150px;
+    color: rgb(29 128 159);
+    font-size: 40px;
+    left: 47px;
+    top: 35px;
+}
+
+h4 {
+    margin-top: 20px;
+}
+
+h4 strong {
+    font-size: 24px;
+}
+
+.look {
+    color: rgb(255 255 255 / 70%);
+}
+
+/* ------------------------------------------- */
+
+.threesctn {
+    height: 800px;
+    text-align: center;
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding-top: 300px;
+}
+
+.threesctn>h2 {
+    padding: 70px;
+    font-size: 60px;
+}
+
+.threesctn a {
+    text-decoration: none;
+    color: white;
+    background-color: #1D809F;
+    border-radius: 5px;
+    padding: 20px 30px;
+    transition: 0.3s;
+}
+.threesctn a:hover{
+    background-color: #196d87;
+}
+
+/* ------------------------------------ */
+
+.PORTFOLIO{
+    margin-top: 80px;
+    color: rgb(236 184 7);
+    text-align: center;
+}
+
+.Recent{
+    text-align: center;
+    font-size: 44px;
+}
+
+
+
+.imgbox {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px auto;
+}
+
+
+.item {
+    width: 50%;
+    height: 400px;
+    position: relative;
+    transition: 0.5s;
+    clip-path: inset(0);
+}
+
+.item .img {
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    align-items: flex-end;
+    padding: 50px;
+    transition: 0.5;
+}
+
+.item:hover .overlay {
+    background-color: rgba(14, 14, 136, 0.582);
+}
+
+.item:hover {
+    clip-path: inset(35px);
+}
+
+/* ------------------------------------------- */
+
+.fivesctn {
+    background-color: #1D809F;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fivesctn h2 {
+    color: white;
+    font-size: 50px;
+}
+
+.abtn{
+    margin-top: 40px;
+}
+
+.firstbtn {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px 35px;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+
+.firstbtn:hover{
+    background-color: #d3d4d5;
+}
+
+.secondbtn {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 5px;
+    padding: 20px 35px;
+    transition: 0.3s;
+}
+
+.secondbtn:hover{
+    background-color: #343a40;
+}
+
+/* --------------------------------------------- */
+
+.map iframe {
+    width: 100%;
+    height: 600px;
+}
+
+/* --------------------------------------------------- */
+
+.ftr{
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ftr li{
+    display: inline-block;
+    margin: 5px;
+    padding: 20px;
+    background-color: #1D809F;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+
+
+.ftr ul li:first-child{
+    padding: 20px 25px ;
+}
+
+.ftr li i{
+    color: white;
+    font-size: 20px;
+
+} 
+
+.cpy{
+    margin-top: 30px;
+    color: #6c757d;
+    font-size: small;
+}
+
+.ftr ul li:hover{
+    background-color: #17667f;
+}
+
+
